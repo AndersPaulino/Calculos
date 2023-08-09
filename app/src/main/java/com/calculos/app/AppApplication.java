@@ -15,7 +15,7 @@ public class AppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AppApplication.class, args);
-		Scanner scanner = new Scanner(System.in);
+		/*Scanner scanner = new Scanner(System.in);
 
 		List<Integer> numerosInseridos = new ArrayList<>();
 		int somaNumeros = 0;
@@ -81,6 +81,6 @@ public class AppApplication {
 		} else {
 			int indice = tamanho / 2;
 			return numeros.get(indice);
-		}
+		}*/
 	}
 }
