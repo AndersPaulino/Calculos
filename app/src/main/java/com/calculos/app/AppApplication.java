@@ -19,10 +19,11 @@ public class AppApplication {
 
 		List<Integer> numerosInseridos = new ArrayList<>();
 		int somaNumeros = 0;
-
-		System.out.println("Digite vários números (pressione Enter sem digitar nada para encerrar):");
+		int x = 1;
 
 		while (true) {
+			System.out.println("Digite o Dado " + x + " (pressione Enter sem digitar nada para encerrar):");
+			x++;
 			String entrada = scanner.nextLine();
 
 			if (entrada.isEmpty()) {
@@ -49,8 +50,8 @@ public class AppApplication {
 
 			System.out.println("Números inseridos: " + numerosInseridos);
 			System.out.println("Número de dados inseridos: " + totalNumeros);
-			System.out.println("Média dos números inseridos: " + media);
-			System.out.println("Desvio Padrão: " + desvioPadrao);
+			System.out.printf("Média dos números inseridos:  %.3f%n" , media);
+			System.out.printf("Desvio Padrão: %.3f%n" , desvioPadrao);
 			System.out.println("Mediana: " + mediana);
 		} else {
 			System.out.println("Nenhum número inserido.");
