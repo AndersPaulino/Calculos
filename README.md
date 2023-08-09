@@ -43,3 +43,5 @@ Certifique-se de ter o ambiente Java e o Spring Boot configurados em sua máquin
 mvn spring-boot:run
 ```
 Acesse os endpoints usando ferramentas como o Postman ou um navegador da web.
+
+[Inicio](#calculadora-de-estatísticas)<br>
